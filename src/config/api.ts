@@ -3,7 +3,7 @@ export const API_CONFIG = {
   // Base URL for the secure API server
   BASE_URL: process.env.NEXT_PUBLIC_API_URL || 
     (process.env.NODE_ENV === 'production' 
-      ? '/server-api' 
+      ? 'https://personalised-dashboard.vercel.app/server-api' 
       : 'http://localhost:5000/api'),
   
   // Timeout settings
